@@ -21,8 +21,7 @@ let package = Package(
         .target(
             name: "ThemeKit",
             dependencies: [],
-            path: "Sources/ThemeKit",
-            cSettings: [.headerSearchPath("ThemeKit")]),
+            path: "Sources"),
         .testTarget(
             name: "ThemeKitTests",
             dependencies: ["ThemeKit"]),
