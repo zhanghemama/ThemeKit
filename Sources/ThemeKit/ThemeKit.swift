@@ -1,1 +1,4 @@
-
+import Cocoa
+struct ThemeKit {
+    
+}
